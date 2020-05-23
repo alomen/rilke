@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cartas de Rilke
+        </title>
+        <style>
+            /* CSS */
+            html{font-size: 20px;
+            font-family: sans-serif;
+            background-color:aliceblue; border: 5px solid blue;margin: 30px;padding: 5px;}
+            nav{
+                background-color:aqua; 
+                width: 15em; 
+                border: 2px solid blue;
+                 margin: 5px;
+                 padding: 0px;
+            }
+            img{width: 400;}
+            h1{
+                background-color: thistle;
+                color:darkblue; 
+                text-align: center; 
+                font-style: italic;
+                font-size: 15px; 
+                margin: 10px;
+            }
+            h2{color:indigo; font-size: 18px; text-align: center;}
+            h3{color:teal;}
+            h4{color:sienna}
+            blockquote{font-style: italic;text-align: justify; font-weight: 500;}
+            a{color: sienna;}
+            p{font-style: normal; font-size: 16px}
+            span { text-decoration: underline; font-size: 25px;}
+            ul{color: tomato;}
+            li { list-style-type: circle; }
+            .notas{font-size: 15px;color:slategray}
+            
+            ul li span {color: red; font-size: 16px; text-decoration: none;}
+
+            li { cursor: pointer; }
+            a:hover { font-style:italic; }
+      </style>
+      <script>
+          function changeTitleCSSStyle() {
+              var title = document.querySelector("#principal");
+              title.style.color = "red";
+              title.style.backgroundColor = "yellow";
+              title.style.border = "5px dashed green";
+
+          }
+          
+      </script>
+        
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+        <h1 id="principal">
+            <i>En las... </i><br> <span id="titulo">"Cartas a un joven poeta"</span>
+        </h1>
+        <button onclick="changeTitleCSSStyle();">
+        Cambiar estilo anterior
+        </button>
+        <h2>Rainer María Rilke</h2>
+        </header>
+        <nav>
+        <h4><ul>
+            <li class ="lista"><a href="#cartaI">Carta I</a><span>&nbsp;&nbsp;&nbsp;&nbsp;17/02/1903</span></li>
+            <li class ="lista"><a href="#cartaII">Carta II</a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5/04/1903</span></li>
+            <li class = "lista"><a href="#cartaIII">Carta III</a><span>&nbsp;&nbsp;23/04/1903</span></li>
+            <li class = "lista"><a href="#cartaIV">Carta IV</a><span>&nbsp;&nbsp;16/07/1903</span></li>
+            <li class = "lista"><a href="#cartaV">Carta V</a><span>&nbsp;&nbsp;&nbsp;&nbsp;29/10/1903</span></li>
+            <li class = "lista"><a href="#cartaVI">Carta VI</a><span>&nbsp;&nbsp;&nbsp;22/12/1903</span></li>
+            <!--  <li><a href="rilke-cartas-2.html" target="_blank">Segunda Parte</a></li> -->
+        </h4></ul>
+        </nav>
+        
+        <section>
+            <div class="cartas1-3">
+        <h3>Carta I, 17/02/1903</h3>
+        <p id="cartaI" class="cartas">
+            
+            <blockquote id="bq1">
+                Las cosas no son todas tan comprensibles ni tan fáciles de expresar como generalmente se nos quisiera hacer creer. La mayor parte de los acontecimientos son inexpresables; suceden dentro de un recinto que nunca holló palabra alguna. Y más inexpresables que cualquier otra cosa son las obras de arte: seres llenos de misterio, cuya vida, junto a la nuestra que pasa y muere, perdura. 
+            </blockquote>
+        </p>
+        <hr>
+        <p id="nota-c1" class="notas">
+            
+                En las traducciones de esta carta viene "holló palabra alguna", aunque la definición no parece tener relación con la frase. <br>
+                <i>Hollar: Apretar una cosa con los pies; hacer sentir a una persona su inferioridad.
+            </i>
+        </p>
+        </section>
+        <h3>Carta II, 5/04/1903</h3>
+        <p id="cartaII" class="cartas">
+            <blockquote>
+                Si yo he de decirle quién me enseñó algo acerca de crear, de su esencia, de su profundidad y de cuanto en él hay de eterno, solo puedo citar dos nombres: el grande, muy grade Jacobsen y el de Auguste Rodin, el escultor sin par entre todos los artistas que viven en la actualidad. 
+            </blockquote>
+        </p>
+        <hr>
+        
+                <a href="https://www.jornada.com.mx/2003/07/20/sem-gabriel.html"
+                target="_blank">NATURALEZA Y HASTÍO EN JACOBSEN</a>
+                 <br>
+                 <br>
+                 <i>El Pensador, Rodin</i>
+                <img width=300 alt="El pensador"
+                src="https://cdn.pixabay.com/photo/2014/10/15/15/20/the-thinker-489753_1280.jpg">
+            
+        
+
+        <h3>Carta III, 23/04/1903</h3>
+        <p id="cartaIII" class="cartas">
+            <blockquote>
+                Deseo que desde ahora y aquí mismo quede formulado este ruego: lea lo menos posible trabajos de carácter estético-crítico: o son dictámenes de bandería, que por su rigidez y su falta de vida han llegado a petrificarse y a perder todo sentido, o bien tan solo hábiles juegos de palabras, en que prevalece hoy una opinión y mañana la contraria. Las obras de arte viven en medio de una soledad infinita, y a nada son menos accesibles como a la crítica. 
+            </blockquote>
+        </p>
+        <hr>
+    </div>
+        <h3>Carta IV, 16/07/1903</h3>
+        <p id="cartaIV" class="cartas">
+            <blockquote>
+                Si, como dice, siente que están lejos de usted los seres más allegados, es señal de que ya comienza a ensancharse el ámbito en derredor suyo. Y si lo cercano se halla tan lejos, es que la amplitud de su vida ha crecido mucho y alcanza ya las estrellas. Alégrese de su propio crecimiento, en el cual, por cierto, a nadie puede llevarse consigo. Y sea bueno con cuantos se queden rezagados, permaneciendo seguro y tranquilo ante ellos, sin atormentarlos con sus dudas ni asombrarles con su firme confianza en sí mismo, o con su alegría, que ellos no sabrían comprender. 
+            </blockquote>
+        </p>
+        <hr>
+        <p id="nota-c4" class="notas">
+            
+            En tiempos de confinamiento por el coronavirus (23/04/2020) este consejo parece ser muy acertado.
+        </p>
+        
+
+        <h3>Carta V, 29/10/1903</h3>
+        <p id="cartaV" class="cartas">
+            <blockquote>
+               Aun habito en la ciudad, junto al Capitolio, no muy lejos de la más bella estatua ecuestre que nos haya quedado bien conservada del arte romano: la de Marco Aurelio. Pero dentro de pocas semanas me alojaré en un cuarto silencioso y sencillo, antigua galería perdida en lo más recóndito de un gran parte y oculta a la ciudad, a su bullicio y sus azares. Ahí permaneceré durante todo el invierno, gozando de esa gran quietud, de la cual espero el regalo de algunas horas buenas y fecundas. 
+            </blockquote>
+        </p>
+        <hr>
+    
+            <i> Marco Aurelio</i>
+                <img width=300 alt="Marco Aurelio"
+
+                src="https://3.bp.blogspot.com/-H6aeFQB89kQ/UXEEUAD4FyI/AAAAAAAAACE/Ts4dWkOJ6FA/s1600/foto+1.jpg">
+            
+        <h3>Carta VI, 22/12/1903</h3>
+        <p id="cartaVI" class="cartas">
+            <blockquote>
+               --¿qué sería una soledad que no tuviera su grandeza? Solo hay una soledad. Es grande y difícil de soportar. Y casi a todos nos llegan horas en que de buen grado la cederíamos a trueque de cualquier convivencia. Por muy trivial y mezquina que fuere. Hasta por la mera ilusión de una ínfima coincidencia con otro ser. Con el primero que se presente, aunque resulte tal vez el menos digno. Mas acaso sean éstas, precisamente, las horas en que la soledad crece, pues su desarrollo es doloroso como el crecimiento de los niños y triste como el comienzo de la primavera. Ello, sin embargo, no debe desconcertarle, pues lo único que por cierto hace falta es esto: Soledad, grande, íntima soledad. Adentrarse en sí mismo, y , durante horas y horas, no encontrar a nadie... 
+            </blockquote>
+        </p>
+        <hr>
+        <footer>
+            <details>
+                <summary>
+                    Desarrollo WEB
+                </summary>
+        <p>Alonso <span class="apellido"> Mena</span> <br>
+            <img width=300 alt="Paris, 2016" title="En París, Francia, verano 2016"
+        src="images/IMG_4812.JPG"> </p>
+        <p>Contact information: <a href="mailto:alonsomen@gmail.com">
+            alonsomen@gmail.com</a></p>
+        </details>
+        </footer>
+    </body>
+</html>
